@@ -7,7 +7,7 @@ int main (){
 	
 	printf("entrer une chaine de caractere : ");
 	fgets(str, sizeof(str),stdin);
-	str[strcspn(str,"\n")]="\0";
+	str[strcspn(str,"\n")]='\0';
 	
 	printf("Entrer le caractere a rechercher : ");
     scanf("%c", &c);
