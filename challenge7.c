@@ -11,7 +11,7 @@ int main() {
     str[strcspn(str, "\n")] = '\0'; 
 
     for (i = 0; str[i] != '\0'; i++) {
-        str[i] = tolower(str[i]);
+        str[i] = toupper(str[i]);
     }
 
     printf("Chaine en minuscules : %s\n", str);
